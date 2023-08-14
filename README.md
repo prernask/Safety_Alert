@@ -2,6 +2,19 @@
 
 A app for women safety.
 
+# about project
+GPS and GSM based system
+get current location latitude and longtitude gps tracker libary to help to get gps location
+
+add menifest.xml file : 
+uses permission - 1. access accurate location : access_coarse location
+                  2. access fine location
+                  gsm modem used to send position latitude and longtitude
+
+you need to create an api key and enable it in developer console before working with google maps api.
+add google map location dependency in manifest.xml
+getLatitude, setLatitude,setAltitude,setAccurancy,getSpeed,setTime
+
 ## Output
 ![2](https://user-images.githubusercontent.com/91388114/183855483-d1e4acdc-2cf4-4747-8e80-617419c7558a.jpeg)
 ![1](https://user-images.githubusercontent.com/91388114/183855493-aaae3238-68c5-479a-abcd-72f05fb5700e.jpeg)
